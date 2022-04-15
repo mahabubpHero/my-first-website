@@ -1,13 +1,13 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 body{
+    margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 h1{
     font-size: 45px;
+}
+p {
+    text-align: justify;
 }
 .half-width .name {
     color: orange;
@@ -20,4 +20,15 @@ h1{
 }
 .half-width img {
     width: 100%;
+}
+.link-btn {
+    text-decoration: none;
+    background-image: linear-gradient(lightSalmon, salmon);
+    background-color: orange;
+    padding: 10px 18px;
+    border-radius: 7px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+
 }
